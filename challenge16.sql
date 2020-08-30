@@ -64,9 +64,3 @@ SELECT
 FROM vine_table
 WHERE vine='N'
 ORDER BY AverageStarRating DESC
-
-/* CONCLUSION
-   The average rating is 3 Stars. 
-   The vine_table contains only Non-Vine review ratings. Since these reviews are 
-   Non-Vine reviews there isn't any way to know how trustworthy they are from this data.
- */
